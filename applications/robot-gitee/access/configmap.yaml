@@ -101,6 +101,14 @@ data:
         openlookeng/hetu-core:
         - robot-gitee-openlookeng-associate
 
+        ascend:
+        - robot-gitee-ascend-assign
+        - robot-gitee-ascend-approve
+        - robot-gitee-ascend-cla
+        - robot-gitee-ascend-label
+        - robot-gitee-ascend-lgtm
+        - robot-gitee-ascend-tide
+
       plugins:
       - name: lifecycle
         endpoint: http://service-lifecycle.robot-gitee-opengauss.svc.cluster.local:8888/gitee-hook

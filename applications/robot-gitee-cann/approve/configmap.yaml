@@ -6,4 +6,6 @@ data:
   config.yaml: |
     config_items:
     - repos:
-      - cann
+      - cann/acl
+      - cann/air
+      - cann/abl-kernel

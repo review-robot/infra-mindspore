@@ -6,7 +6,9 @@ data:
   config.yaml: |
     config_items:
     - repos:
-      - cann
+      - cann/acl
+      - cann/air
+      - cann/abl-kernel
       enable_pr_assign: true
       enable_issue_assign: true
       enable_issue_collaborator: true

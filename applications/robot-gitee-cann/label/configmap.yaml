@@ -4,3 +4,8 @@ metadata:
   name: configmap
 data:
   config.yaml: |
+    config_items:
+    - repos:
+      - cann
+      clear_labels:
+      - ci-pipeline-passed

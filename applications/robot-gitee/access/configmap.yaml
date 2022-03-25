@@ -112,21 +112,21 @@ data:
         - robot-gitee-ascend-lgtm
         - robot-gitee-ascend-tide
 
-        cann/acl
+        cann/acl:
         - robot-gitee-cann-approve
         - robot-gitee-cann-assign
         - robot-gitee-cann-label
         - robot-gitee-cann-lgtm
         - robot-gitee-cann-tide
 
-        cann/air
+        cann/air:
         - robot-gitee-cann-approve
         - robot-gitee-cann-assign
         - robot-gitee-cann-label
         - robot-gitee-cann-lgtm
         - robot-gitee-cann-tide
 
-        cann/abl-kernel
+        cann/abl-kernel:
         - robot-gitee-cann-approve
         - robot-gitee-cann-assign
         - robot-gitee-cann-label

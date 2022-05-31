@@ -101,6 +101,11 @@ data:
         tips_if_missing: "Please wait for the CI test to be completed."
         person: turing_project
         tips_if_added_by_others: "You can't add ci-pipeline-passed label manually. Please remove it and wait for the CI test to be completed."
+      
+      - label: BUILD-PASS
+        tips_if_missing: "Please wait for the build to be passed."
+        person: turing_project
+        tips_if_added_by_others: "You can't add BUILD-PASS label manually. Please remove it and wait for the build to be passed."
 
     - repos:
       - ascend/cann-benchmark
